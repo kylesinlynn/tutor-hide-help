@@ -6,7 +6,6 @@ hooks.Filters.ENV_PATCHES.add_item(
         "FEATURES['ENABLE_HELP_LINK'] = False"
     )
 )
-
 hooks.Filters.ENV_PATCHES.add_item(
     (
         "openedx-cms-common-settings",
